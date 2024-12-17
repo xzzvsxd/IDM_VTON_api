@@ -10,8 +10,9 @@
 </div>
 ## 上面是项目原信息地址
 
-<h1 align="center">摩诘AI-VTON优化汉化版</h1>
+<h1 align="center">摩诘AI-VTON优化汉化版-FastAPI</h1>
 
+[摩诘AI-VTON优化汉化版](https://github.com/MoJIeAIGC/IDMVTON_CN.git)
 
 Star ⭐ us if you like it!
 
@@ -23,59 +24,12 @@ Star ⭐ us if you like it!
 ![teaser](IDM-VTON/assets/teaser.png)&nbsp;
 ![teaser](IDM-VTON/assets/teaser3.png)&nbsp;
 
-
-## install 如何安装
-安装前需要你已在安装了python3.10.11或3.10.13 和C++生成工具
-
-```
-git clone https://github.com/MoJIeAIGC/IDMVTON_CN.git
-
-运行 windows_install.bat 即可
-
-```
-windows_install.bat 会自动安装所有依赖和库，需自备梯子
-不建议从清华源或阿里源安装，部分依赖版本对不上。 
- 
-## 模型下载
-姿势动作人体模型请从此处下载：[ckpt](https://huggingface.co/yisol/IDM-VTON/tree/main).
-* 所有文件都要下载
-* 下载好后放入ckpt文件夹下。
-```
-ckpt
-|-- densepose
-    |-- model_final_162be9.pkl
-|-- humanparsing
-    |-- parsing_atr.onnx
-    |-- parsing_lip.onnx
-
-|-- openpose
-    |-- ckpts
-        |-- body_pose_model.pth
-    
-```
-
 ## 如何运行
 安装好所有依赖后，运行
 ```
-windows_run.bat
+IDM-VTON/main.py
 ```
-第一次运行请根据自己的显存情况进行填写相应的数字。
-如果填写错误或想要重新选择，
-
-请删除IDM-VTON目录下的batconfig.txt文件
-
-![teaser](IDM-VTON/assets/t4.png)&nbsp;
-
-或者也可以自行运行:
-
-```
-python IDM-VTON/app_VTON.py
-```
-首次运行会自动从huggingface下载[yisol/IDM-VTON](https://huggingface.co/yisol/IDM-VTON).
-请自备梯子或镜像耐心等待安装。
-
-## 教程
-### 安装和使用教程：[B站摩诘AI](https://www.bilibili.com/video/BV1VF8Ge4EZh/?vd_source=25d3add966daa64cbb811354319ec18d)
+And Enjoy~
 
 
 ## 演示地址
