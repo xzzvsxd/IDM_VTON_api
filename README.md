@@ -8,21 +8,18 @@
 <a href='https://huggingface.co/yisol/IDM-VTON'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-blue'></a>
 
 </div>
+
+[摩诘AI-VTON优化汉化版](https://github.com/MoJIeAIGC/IDMVTON_CN.git)
 ## 上面是项目原信息地址
 
 <h1 align="center">摩诘AI-VTON优化汉化版-FastAPI</h1>
 
-[摩诘AI-VTON优化汉化版](https://github.com/MoJIeAIGC/IDMVTON_CN.git)
-
-Star ⭐ us if you like it!
 
 ---
-### 本版本对原项目idm-VTON界面做了汉化，优化了原有的内置模特和服装，用SD重做了新模特，增加了一键安装功能和一键运行功能,category成衣类型选项，随机种子和生成数量可选。
 ### VTON可以对服装细节做很好的还原保留，对比目前其他同类模型OOTD等，对人物姿势动作识别以及服装还原效果更好。不过在使用上会有很多技巧，详情可以参考教程。
 
 ![teaser2](IDM-VTON/assets/teaser2.png)&nbsp;
 ![teaser](IDM-VTON/assets/teaser.png)&nbsp;
-![teaser](IDM-VTON/assets/teaser3.png)&nbsp;
 
 ## 如何运行
 安装好所有依赖后，运行
