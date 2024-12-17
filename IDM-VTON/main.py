@@ -1,11 +1,12 @@
 import base64
 import io
+import time
 
 from PIL import Image
 from fastapi import FastAPI, File, UploadFile, Form
-from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel
+from fastapi.middleware.cors import CORSMiddleware
 
 from app_VTON import start_tryon
 
